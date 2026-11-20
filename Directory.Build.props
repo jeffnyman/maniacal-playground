@@ -1,0 +1,11 @@
+<Project>
+  <!--
+    The Maniacal.Scumm the programs build against: the release on nuget.org, unless use-local.ps1
+    has packed the repository as it is now, which it records in .local/Maniacal.props.
+  -->
+  <PropertyGroup>
+    <ManiacalVersion>1.0.0</ManiacalVersion>
+  </PropertyGroup>
+
+  <Import Project="$(MSBuildThisFileDirectory).local/Maniacal.props" Condition="Exists('$(MSBuildThisFileDirectory).local/Maniacal.props')" />
+</Project>

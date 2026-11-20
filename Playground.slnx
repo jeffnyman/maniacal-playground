@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AttractMode/AttractMode.csproj" />
+  <Project Path="Recorder/Recorder.csproj" />
+  <Project Path="RoomAtlas/RoomAtlas.csproj" />
+  <Project Path="SaveRoundTrip/SaveRoundTrip.csproj" />
+  <Project Path="ScriptBrowser/ScriptBrowser.csproj" />
+</Solution>
